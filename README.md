@@ -12,4 +12,4 @@ The website has been deployed on the link [`https://git-scm-clone.vercel.app/`](
 
 ## Contribution
 
-- Read [`Contributing.md`](https://github.com/MSB-s-Projects/Git-scm-Clone/blob/main/CONTRIBUTING.md)
+- Read [`Contributing.md`](https://github.com/MSB-s-Projects/Git-scm-Clone/blob/0369653950df59bae6cb129a84d7d837336dff1b/docs/CONTRIBUTING.md)
