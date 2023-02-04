@@ -991,3 +991,7 @@ padding-inline-start: 40px;
 #download-next-steps li+li {
   /* margin-left: 20px; */
 }
+
+.black {
+      color: black;
+}
