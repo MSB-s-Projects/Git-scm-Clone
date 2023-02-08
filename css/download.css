@@ -1,0 +1,997 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Akaya+Telivigala&family=Merriweather:wght@400;700&display=swap");
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Roboto Slab", serif !important;
+
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  background: #f0efe7 url(../images/body.jpg);
+}
+
+aside.sidebar {
+  font-size: 13px !important;
+  line-height: 16.5px;
+}
+
+side {
+  float: left;
+  width: 218px;
+  margin-bottom: 35px;
+}
+nav{
+  display: block;
+}
+aside.sidebar {
+  font-size: 13px !important;
+  line-height: 16.5px;
+}
+
+aside nav ul {
+  margin-bottom: 1.4em;
+  margin-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  list-style: none;
+}
+hr.sidebar {
+  width: 218px;
+  height: 12px;
+  margin-bottom: 2em;
+  border: 0 !important;
+  background: transparent url(/images/sidebar-divider.png) top right no-repeat;
+  background-size: 218px 12px;
+}
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+aside {
+  float: left;
+  width: 218px;
+  margin-bottom: 35px;
+}
+#content {
+  float: right;
+  width: 702px;
+}
+#download-next-steps li {
+  display: block;
+  float: left;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+
+#download-next-steps {
+  padding-top: 24px;
+}
+
+
+li {
+  line-height: 22px;
+}
+#download-next-steps{
+  margin-left: 0;
+  list-style: none;
+  padding-top: 24px;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0 0 11px 25px;
+}
+
+
+
+ul {
+  display: block;
+  list-style: disc;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+aside nav ul li {
+  margin-bottom: 0.5em;
+}
+
+
+li {
+  line-height: 22px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+aside nav ul {
+  margin-bottom: 1.4em;
+  margin-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  list-style: none;
+}
+
+a {
+  color: #0388a6;
+  text-decoration: none;
+  transition-property: 0.3s;
+  transition-property: color;
+  background-color: transparent;
+}
+
+img {
+  border: 0;
+}
+
+p {
+  margin: 0 0 11px;
+  font-size: 14px;
+  line-height: 22px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+  line-height: 22px;
+}
+
+h3 {
+  line-height: 33px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h4,
+h5,
+h6 {
+  line-height: 22px;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 11px 25px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+  color: #4e443c;
+  text-rendering: optimizelegibility;
+}
+
+.other{
+  display: block;
+  font-weight: bold;
+}
+
+code{
+  display: inline;
+  padding: 0 5px;
+  border-radius: 3px;
+  display: block;
+  padding: 10px 15px 13px;
+    margin-bottom: 1em;
+    overflow: auto;
+    font-family: Courier, monospace;
+    line-height: 18px;
+    color: #f14e32;
+    background-color: #fff;
+    border: solid 1px #efeee6;
+
+}
+
+aside.sidebar .callout p, aside.sidebar #book-container p, aside.sidebar .bottom-nav p, aside.sidebar #logo-license p {
+  margin-bottom: 0;
+}
+
+aside.sidebar p {
+  font-size: 13px !important;
+  line-height: 16.5px;
+}
+p {
+  margin: 0 0 11px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+aside.sidebar .callout, aside.sidebar #book-container, aside.sidebar .bottom-nav, aside.sidebar #logo-license {
+  padding: 20px;
+  color: #887668;
+  background-color: #ebe9e1;
+  background-color: rgba(223,221,213,0.33);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+#content-nav ul,
+#companies-projects ul {
+  margin-left: 0;
+  list-style: none;
+}
+
+.inner-container {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+/* header section */
+
+header {
+  position: relative;
+  padding-bottom: 26px;
+  margin-top: 14px;
+}
+
+#page-heading {
+  position: absolute;
+  top: 11px;
+  left: 120px;
+  display: block;
+  margin-top: 1px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #9a9994;
+}
+
+#main{
+  padding: 22px;
+    margin-bottom: 35px;
+    background-color: #fcfcfa;
+    border: solid 1px #e2e0d8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.dwnld{
+  margin-bottom: 0.4em;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+
+
+.red{
+  color: #ef391a;
+  font-weight: bold;
+  font-size: 18px;
+}
+.search {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 1000;
+  width: 262px;
+  padding-left: 32px;
+  background: transparent url(../images/search.png) 10px 50% no-repeat;
+  background-size: 17px 17px;
+  background-color: #fcfcfa !important;
+  border: solid 1px #ceccc5;
+  border-radius: 20px;
+  box-shadow: inset 0 1px 4px #ddd;
+}
+
+.search:focus-within {
+  border-color: #007175;
+}
+
+.search input {
+  border-radius: 20px;
+  width: 100%;
+  height: 20px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  line-height: 1em;
+  color: #4e443c;
+  background-color: transparent;
+  border: 0;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+
+/* first page  */
+
+.first-page {
+  height: 295px;
+  margin-top: -20px;
+  margin-bottom: 2em;
+  background: transparent url(../images/isometric-grid.png) top right repeat;
+  background-size: 35px 21px;
+}
+
+.first-page .inner-container {
+  padding-top: 20px;
+}
+
+.first-page .inner-container p {
+  width: 558px;
+  margin-bottom: 1.2em;
+  font-size: 18px;
+  line-height: 26.4px;
+}
+
+.illustration {
+  position: absolute;
+  right: -30px;
+  top: 24px;
+}
+
+/* content of website */
+
+/* content navigation */
+
+.content {
+  overflow: visible;
+}
+
+#content-navigation {
+  float: left;
+  width: 618px;
+  margin-bottom: 24px;
+  border-right: solid 1px #d8d7cf;
+}
+
+#content-nav ul {
+  padding-top: 24px;
+}
+
+#nav-about,
+#nav-documentation {
+  margin-bottom: 40px;
+}
+
+#nav-about,
+#nav-downloads {
+  margin-right: 30px;
+}
+
+#content-nav ul li {
+  display: block;
+  float: left;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+#content-nav a {
+  display: block;
+  height: 86px;
+  padding-left: 90px;
+  color: #4e443c;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+
+#content-nav a img {
+  float: left;
+  margin-right: -90px;
+  margin-left: -90px;
+  opacity: 0.9;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+}
+
+#content-nav a h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f14e32;
+}
+
+#content-nav a p {
+  font-size: 13px;
+  line-height: 17.6px;
+}
+
+/* book */
+
+#book {
+  float: left;
+  width: 590px;
+  padding-top: 20px;
+  border-top: solid 1px #d8d7cf;
+}
+
+#book img {
+  float: left;
+  margin-right: 20px;
+}
+
+#book p {
+  margin-top: 16px;
+}
+
+/* Downloads */
+
+#downloads {
+  float: right;
+  width: 313px;
+  position: relative;
+}
+
+.monitor {
+  position: absolute;
+  top: 0;
+  right: -12px;
+  background: transparent url(../images/monitor-windows.png) top right no-repeat;
+  background-size: 313px 271px;
+  width: 273px;
+  height: 226px;
+  padding-top: 45px;
+  padding-left: 40px;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgb(0 0 0 /20%);
+}
+
+.monitor h4 {
+  font-weight: normal;
+  color: #fff;
+  font-size: 16px;
+}
+
+.monitor span.version {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+}
+
+.monitor a {
+  color: #eee;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.monitor span.release-date {
+  font-size: 12px;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+}
+
+.monitor a.button {
+  border-radius: 2px;
+  box-shadow: 0 1px 0 #148a92;
+  display: block;
+  width: 224px;
+  padding: 5px 0;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(#1c868c, #186368);
+  border-top: solid 1px #085e64;
+  border-right: solid 1px #1f6367;
+  border-bottom: solid 1px #134143;
+  border-left: solid 1px #1f6367;
+  transition-duration: 0.3s;
+  transition-property: background-image;
+  text-decoration: none;
+}
+
+/* table  */
+
+#downloads table {
+  position: absolute;
+  top: 271px;
+  left: 24px;
+}
+
+#downloads table td {
+  padding: 8px 20px 6px 0;
+  min-width: 145px;
+}
+
+td:nth-child(1) {
+  width: 25%;
+  padding: 5px;
+}
+
+#downloads table a {
+  font-weight: bold;
+}
+
+a.icon.gui {
+  background: transparent url(../images/gui.png) 6px 3px no-repeat;
+  background-size: 18px 24px;
+}
+
+a.icon {
+  display: inline-block;
+  height: 30px;
+  padding-left: 30px;
+  line-height: 36px;
+}
+
+a.icon.older-releases {
+  background: transparent url(../images/box.png) 0 6px no-repeat;
+  background-size: 22px 20px;
+}
+
+a.icon.mac {
+  background: transparent url(../images/apple.png) 5px 4px no-repeat;
+  background-size: 17px 21px;
+}
+
+a.icon.source {
+  background: transparent url(../images/source-code.png) 0 6px no-repeat;
+  background-size: 25px 20px;
+}
+
+/* Companies and Projects */
+
+#companies-projects {
+  padding-top: 20px;
+  clear: both;
+  border-top: solid 1px #d8d7cf;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#companies-projects ul li {
+  display: block;
+  float: left;
+  width: 108px;
+  height: 65px;
+  margin: 0 4px 25px 5px;
+}
+
+#companies-projects ul a {
+  display: block;
+  width: 108px;
+  height: 65px;
+  text-indent: -99999px;
+  opacity: 0.85;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#companies-projects ul a.google {
+  background: transparent url(../images/google.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.microsoft {
+  background: transparent url(../images/microsoft.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.twitter {
+  background: transparent url(../images/twitter.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.linkedin {
+  background: transparent url(../images/linked-in.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.netflix {
+  background: transparent url(../images/netflix.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.perl {
+  background: transparent url(../images/perl.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.postgresql {
+  background: transparent url(../images/postgresql.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.android {
+  background: transparent url(../images/android.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.linux {
+  background: transparent url(../images/linux.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.rails {
+  background: transparent url(../images/rails.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.qt {
+  background: transparent url(../images/qt.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.gnome {
+  background: transparent url(../images/gnome.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.eclipse {
+  background: transparent url(../images/eclipse.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.kde {
+  background: transparent url(../images/kde.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+#companies-projects ul a.x {
+  background: transparent url(../images/x.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+/* footer */
+
+footer {
+  padding: 20px 0 40px;
+  margin-top: 35px;
+  clear: both;
+  font-size: 12px;
+  line-height: 15.4px;
+  color: #9a9994;
+  border-top: solid 1px #d8d7cf;
+}
+
+footer .site-source {
+  float: left;
+  padding-left: 46px;
+  background: transparent url(../images/code.png) 0 2px no-repeat;
+  background-size: 38px 23px;
+}
+
+footer a {
+  color: #403f3c;
+}
+
+footer .sfc-member {
+  float: right;
+  text-align: right;
+}
+
+/* Making the website responsive */
+
+@media (max-width: 940px) {
+  .inner-container {
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 2rem;
+  }
+
+  header a,
+  header span {
+    padding-left: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .search {
+    transform: translate(-50%);
+    left: 50%;
+    margin-top: 7px;
+    top: unset;
+  }
+
+  .first-page {
+    height: unset;
+  }
+
+  .first-page .inner-container {
+    display: flex;
+    margin-top: 1.8rem;
+  }
+
+  .first-page .inner-container div:first-of-type {
+    padding: 1rem;
+  }
+
+  .first-page .inner-container p {
+    width: unset;
+  }
+
+  .illustration-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .illustration {
+    position: unset;
+    right: unset;
+    top: unset;
+    max-height: 100%;
+  }
+
+  .content-div {
+    padding: 0.8rem;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  #content-navigation {
+    width: 50%;
+  }
+
+  #content-nav ul {
+    padding: 0 1rem 0 0;
+  }
+
+  #content-nav ul li {
+    margin-bottom: 1rem !important;
+    margin-right: 0 !important;
+  }
+
+  #book {
+    width: unset;
+  }
+
+  #downloads {
+    width: 50%;
+  }
+
+  .monitor {
+    transform: translateX(-50%);
+    left: 50%;
+  }
+
+  #downloads table {
+    transform: translateX(-50%);
+    left: 50%;
+  }
+
+  #downloads table tbody,
+  #downloads table tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #downloads table td {
+    margin-bottom: 1rem;
+  }
+
+  #downloads table td a {
+    padding-left: 2.3rem;
+  }
+
+  #companies-projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  header {
+    padding-bottom: 2.5rem;
+  }
+
+  #page-heading {
+    font-size: 0.8rem;
+    top: 0;
+    padding-right: 1rem;
+  }
+
+  .search {
+    width: 84%;
+  }
+
+  .search input {
+    padding: 0.3rem 0.1rem;
+  }
+
+  .first-page .inner-container {
+    flex-direction: column-reverse;
+  }
+
+  .illustration-div {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .illustration {
+    width: 80%;
+    height: 100%;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  #content-navigation,
+  #downloads {
+    width: 100%;
+    border-right: none;
+  }
+
+  #content-nav ul {
+    padding: 0 1rem;
+  }
+
+  #book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #downloads {
+    border-bottom: 1px solid #d8d7cf;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .monitor,
+  #downloads table {
+    position: relative;
+  }
+
+  #downloads table {
+    top: 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .site-source {
+    margin-bottom: 1rem;
+  }
+}
+
+#download-next-steps {
+  margin-left: 0;
+    list-style: none;
+  padding-top: 24px;
+}
+ul {
+  list-style: disc;
+}
+ul, ol {
+  padding: 0;
+  margin: 0 0 11px 25px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#download-next-steps-li {
+  display: block;
+  float: left;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+#download-next-steps a p {
+  font-size: 13px;
+  line-height: 17.6px;
+}
+
+li {
+  line-height: 22px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+ul.unstyled, ul.stackoverflow, ul.content-list, ul.books-list, ul.video-thumbnails, ul.gui-thumbnails, #companies-projects ul, #front-nav ul, #search-results table ul, ul#download-next-steps, ul.section-nav-container, ul#book-chapters, ul#reference-version, ol.unstyled, ol#about-nav, ol.content-list, ol.book-toc, ol.reference-previous-versions, ol.full-search-results, ol#download-next-steps, ol.section-nav-container, ol#book-chapters, ol#reference-version {
+  margin-left: 0;
+  list-style: none;
+}
+ul {
+  list-style: disc;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+
+
+#download-next-steps {
+padding-top: 24px;
+}
+ul {
+list-style: disc;
+}
+ul, ol {
+padding: 0;
+margin: 0 0 11px 25px;
+}
+
+ul {
+display: block;
+list-style-type: disc;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
+
+#main {
+  padding: 22px;
+  margin-bottom: 35px;
+  background-color: #fcfcfa;
+  border: solid 1px #e2e0d8;
+}
+
+.para{
+  color: black;
+}
+
+#download-next-steps::before {
+  display: table;
+  content: "";
+}
+
+#download-next-steps::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+#download-next-steps li+li {
+  /* margin-left: 20px; */
+}
+
+.black {
+      color: black;
+}
